@@ -46,16 +46,42 @@ function imprimirHasta(num) {
 
 imprimirHasta(4);
 
-//Punto 5 (No entendi si lo hice bien)
+//Punto 5 (No entendi si lo hice bien, intente hacerlo con un for como el punto anterior pero no sabia si estaba bien asi.)
 
 function repetirPalabra(cant, palabra) {
-  let i = 0
-  while (i < cant) {
-    console.log(palabra)
-    i++
-    }
-  }
+  console.log(palabra.repeat(cant));
+}
 
-repetirPalabra(5, "Messi");
+repetirPalabra(5, "Messi ");
 
 //Punto 6
+
+function imprimirValores(array) {
+  for (const valor of array) {
+    console.log(valor)
+  }
+  }
+
+imprimirValores(array = [10, 5, 2, 15, 9]);
+
+//Punto 7
+
+function arraySin5(array) {
+  for (let i = 0; i < array.length; i++) {
+    if (i != 4) {
+      console.log(array [i])
+    }
+   }
+  }
+
+arraySin5(array = [2, 4, 6, 7, 9, 3, 12, 14, 27, 81])
+
+//Punto 8
+
+function multiplicarArray(array, multiplicador) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(array [i] * multiplicador);
+  }
+}
+
+multiplicarArray(array = [2, 224, 4, 10, 8], 42)
