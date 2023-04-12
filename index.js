@@ -10,6 +10,8 @@ function parImpar(num) {
 
 parImpar(9);
 
+console.log("Fin punto 1")
+
 // Punto 2
 
 function mayorNumero(num1, num2) {
@@ -24,6 +26,8 @@ function mayorNumero(num1, num2) {
 
 mayorNumero(3, 7);
 
+console.log("Fin punto 2")
+
 //Punto 3
 
 function multiplo5(num) {
@@ -36,6 +40,8 @@ function multiplo5(num) {
 
 multiplo5(20);
 
+console.log("Fin punto 3")
+
 //Punto 4
 
 function imprimirHasta(num) {
@@ -46,6 +52,8 @@ function imprimirHasta(num) {
 
 imprimirHasta(4);
 
+console.log("Fin punto 4")
+
 //Punto 5 (No entendi si lo hice bien, intente hacerlo con un for como el punto anterior pero no sabia si estaba bien asi.)
 
 function repetirPalabra(cant, palabra) {
@@ -53,6 +61,8 @@ function repetirPalabra(cant, palabra) {
 }
 
 repetirPalabra(5, "Messi ");
+
+console.log("Fin punto 5")
 
 //Punto 6
 
@@ -63,6 +73,8 @@ function imprimirValores(array) {
   }
 
 imprimirValores(array = [10, 5, 2, 15, 9]);
+
+console.log("Fin punto 6")
 
 //Punto 7
 
@@ -76,6 +88,8 @@ function arraySin5(array) {
 
 arraySin5(array = [2, 4, 6, 7, 9, 3, 12, 14, 27, 81])
 
+console.log("Fin punto 7")
+
 //Punto 8
 
 function multiplicarArray(array, multiplicador) {
@@ -85,3 +99,5 @@ function multiplicarArray(array, multiplicador) {
 }
 
 multiplicarArray(array = [2, 224, 4, 10, 8], 42)
+
+console.log("Fin punto 8")
